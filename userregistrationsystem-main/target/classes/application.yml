@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: useregistrationsystem
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/registrations?createDatabaseIfNotExist=true
+    username: ${MYSQL_USERNAME:Akshaya}
+    password: Ak@80933
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
